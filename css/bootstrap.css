@@ -110,7 +110,7 @@ hr {
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
-  font-family: noto sans;
+  font-family: 'Noto Sans', sans-serif;
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 500;
@@ -159,11 +159,13 @@ h5, .h5 {
 }
 
 h6, .h6 {
-  font-size: 1rem;
-}
+  font-size: .875rem;}
+
+  h7, .h7 {
+    font-size: 1rem;}
 
 p {
-  font-family: noto sans;
+  font-family: 'Noto Sans', sans-serif;
   margin-top: 0;
   margin-bottom: 1rem;
   line-height: 150%;
@@ -3195,6 +3197,26 @@ textarea.form-control-lg {
   --bs-btn-disabled-bg: #f8f9fa;
   --bs-btn-disabled-border-color: #f8f9fa;
 }
+.btn-g {
+  --bs-btn-color: #ffff;
+  --bs-btn-bg: #89d2c4;
+  --bs-btn-border-color: #89d2c4;
+  --bs-btn-hover-color: #ffff;
+  --bs-btn-hover-bg: #00866a;
+  --bs-btn-hover-border-color: #00866a;
+  --bs-btn-focus-shadow-rgb: 211, 212, 213;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #f9fafb;
+  --bs-btn-active-border-color: #f9fafb;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #f8f9fa;
+  --bs-btn-disabled-border-color: #f8f9fa;
+  font-size: .75rem;
+  padding: .25rem 1rem;
+  gap: .625rem;
+  border-radius: 1.875rem;
+}
 
 .btn-dark {
   --bs-btn-color: #fff;
@@ -4372,7 +4394,7 @@ textarea.form-control-lg {
   --bs-card-spacer-y: 1rem;
   --bs-card-spacer-x: 1rem;
   --bs-card-title-spacer-y: 0.5rem;
-  --bs-card-border-width: 1px;
+  --bs-card-border-width: 0px;
   --bs-card-border-color: var(--bs-border-color-translucent);
   --bs-card-border-radius: 0.375rem;
   --bs-card-box-shadow: ;
@@ -7898,6 +7920,17 @@ textarea.form-control-lg {
   margin-top: auto !important;
 }
 
+.mt-6 {
+  margin-top: 2rem !important;
+}
+ .mt-7 {
+  margin-top: 2.5rem !important;
+ }
+
+.mb-6 {
+  margin-bottom: 2.5rem !important;
+}
+
 .me-0 {
   margin-right: 0 !important;
 }
@@ -8036,6 +8069,16 @@ textarea.form-control-lg {
   padding-left: 3rem !important;
 }
 
+.px-6 {
+  padding-right: 2.5rem !important;
+  padding-left: 2.5rem !important;
+}
+
+.px-7 {
+  padding-right: 4rem !important;
+  padding-left: 4rem !important;
+}
+
 .py-0 {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
@@ -8064,6 +8107,10 @@ textarea.form-control-lg {
 .py-5 {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
+}
+ .py-6 {
+  padding-top: .75rem !important;
+  padding-bottom: .75rem !important;
 }
 
 .pt-0 {
@@ -8112,6 +8159,11 @@ textarea.form-control-lg {
 
 .pe-5 {
   padding-right: 3rem !important;
+}
+
+
+.pe-6 {
+  padding-right: 3.4rem !important;
 }
 
 .pb-0 {
@@ -8210,10 +8262,20 @@ textarea.form-control-lg {
   font-size: 1.25rem !important;
 }
 
-.fs-6 {
+.f s-6 {
   font-size: 1rem !important;
 }
+.fs-7 {
+  font-size: .625rem !important;
+}
 
+.fs-8 {
+  font-size: .875rem !important;
+}
+
+.fs-9 {
+  font-size: .75rem !important;
+}
 .fst-italic {
   font-style: italic !important;
 }
@@ -8232,6 +8294,10 @@ textarea.form-control-lg {
 
 .fw-normal {
   font-weight: 400 !important;
+}
+
+.fw-500 {
+  font-weight: 500;
 }
 
 .fw-bold {
@@ -8330,8 +8396,19 @@ textarea.form-control-lg {
 
 .text-info {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-info-rgb), var(--bs-text-opacity)) !important;
+  color: #25396F;
 }
+
+.text-title {
+  --bs-text-opacity: 1;
+  color: #282828; 
+}
+
+.text-tex {
+  --bs-text-opacity: 1;
+  color: #646464; 
+}
+
 
 .text-warning {
   --bs-text-opacity: 1;
@@ -8421,7 +8498,7 @@ textarea.form-control-lg {
 
 .bg-info {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-info-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #F2F6FC;
 }
 
 .bg-warning {
@@ -8462,6 +8539,16 @@ textarea.form-control-lg {
 .bg-transparent {
   --bs-bg-opacity: 1;
   background-color: transparent !important;
+}
+
+.bg-purp {
+  --bs-bg-opacity: 1;
+  background-color: #EE6093;
+}
+
+.bg-casp {
+  --bs-bg-opacity: 1;
+  background-color: #1AB0B0;
 }
 
 .bg-opacity-10 {
