@@ -8070,6 +8070,10 @@ textarea.form-control-lg {
   margin-top: 2.5rem !important;
  }
 
+ .mt-8 {
+  margin-top: 4.5rem !important;
+ }
+
 .mb-6 {
   margin-bottom: 2.5rem !important;
 }
@@ -8414,7 +8418,7 @@ textarea.form-control-lg {
   font-size: 1.25rem !important;
 }
 
-.f s-6 {
+.fs-6 {
   font-size: 1rem !important;
 }
 .fs-7 {
@@ -8428,6 +8432,19 @@ textarea.form-control-lg {
 .fs-9 {
   font-size: .75rem !important;
 }
+
+.fs-10 {
+  font-size: 1.125rem !important;
+}
+
+.fs-11 {
+  font-size: 1.5rem !important;
+}
+
+.fs-12 {
+  font-size: 2.25rem !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -8537,8 +8554,8 @@ textarea.form-control-lg {
 }
 
 .text-secondary {
-  --bs-text-opacity: 1;
-  color: #3EB09B !important;
+  opacity: 0.5;
+  color: #3EB09B;
 }
 
 .text-success {
